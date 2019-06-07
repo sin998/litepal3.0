@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/create_stu_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="插入一条数据"/>
+
+    <Button
+        android:id="@+id/update_stu_by_id_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更新一条数据：通过id"/>
+
+    <Button
+        android:id="@+id/update_stu_by_condition_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更新多条数据:通过条件"/>
+
+    <Button
+        android:id="@+id/update_stu_to_default_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更新多条数据:更新成默认值"/>
+
+    <Button
+        android:id="@+id/delete_stu_by_id_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除一条数据：通过id"/>
+
+    <Button
+        android:id="@+id/delete_stu_by_condition_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除多条数据：通过条件"/>
+
+    <Button
+        android:id="@+id/delete_stu_by_db_name_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除数据库"/>
+
+    <Button
+        android:id="@+id/query_stu_by_id_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询一条数据：通过id"/>
+
+    <Button
+        android:id="@+id/query_stu_all_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询所有数据"/>
+
+    <Button
+        android:id="@+id/query_stu_by_condition_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询多条数据：通过条件"/>
+
+    <Button
+        android:id="@+id/db_operations_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据库相关操作"/>
+
+</LinearLayout>

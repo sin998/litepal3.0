@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <!-- 数据库名称：一般情况下数据库应以".db"结尾，如果这里没有加上".db"，那么LitePal将会自动增加后缀 -->
+    <dbname value="test"/>
+
+    <!-- 数据库版本：如果您需要升级您的数据库，只需要数据库版本号比当前数据库版本号大即可，LitePa会自动处理并升级数据库 -->
+    <version value="4" />
+
+    <!-- 定义映射关系：LitePal将会为每个映射类创建对应的表，将受支持的字段映射到类中，这里先不用配置，后面再做详细讲解 -->
+    <list>
+
+        <!-- 一个实体类就是一张表 -->
+        <mapping class = "com.sin998.testlitepal.bean.Student"/>
+
+    </list>
+
+</litepal>
